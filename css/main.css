@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 
 body, html {
   height: 100%;
   margin: 0;
-  background-color: #6a994e;
+  background-color: #386641;
 
 
 }
@@ -19,19 +20,32 @@ a:hover, a:active {
 }
 
 
-
-
 .title {
-	position: absolute;
-	top: 10px;
-	left: 16px;
+	position: center;
+
 }
 
 .title img {
-	width: 40%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+	max-width: 100%;
+	height: auto;
+	
+}
+
+.title h1 {
+	color: #1b263b;
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Lilita One', cursive;
 }
 
 #flex-container {
+	position: bottom;
     display: flex;
 	background-color: #386641;
 }
